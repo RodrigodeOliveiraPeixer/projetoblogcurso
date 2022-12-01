@@ -14,5 +14,5 @@ Para executar este projeto
 
 
 No blog você poderá se cadastrar  pelo crud do django seguindo os requisitos, e poderá realizar os posts de texto no blog,  poderá também ediar ou deletar os posts.
-Mesmo não estando logado você poderá visualizar os posts direto pelo link
+POrem só poderá postar, editar ou deletar posts se estiver logado!
 
