@@ -24,6 +24,7 @@ class BlogCreateView(LoginRequiredMixin, CreateView):
     fields= "__all__"
 
 class BlogUpdateView(LoginRequiredMixin, UpdateView):
+    login_url = reverse_lazy('login')
     model = Post
     template_name = 'post_edit.html'
     fields=['title', 'body']
