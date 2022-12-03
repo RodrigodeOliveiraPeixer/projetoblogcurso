@@ -11,7 +11,7 @@ class BlogTests(TestCase):
             email= 'test@gmail.com',
             password='secret'
         )
-        self.post = Post.objects.create
+        self.post = Post.objects.create(
             title='A good tittle',
             body='Nice body content',
             author=self.user,
