@@ -6,7 +6,7 @@ from .models import Post
 
 class BlogTests(TestCase):
     def setUp(self):
-        self.user = get_user_model().objects.create_user(
+        self.user = get_user_model().objects.create_user
             username='testuser',
             email= 'test@gmail.com',
             password='secret'
