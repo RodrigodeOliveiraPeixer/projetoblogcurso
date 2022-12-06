@@ -2,7 +2,7 @@ from django.views.generic import ListView, DetailView, UpdateView, DeleteView
 from django.views.generic.edit import CreateView
 from django.urls import reverse_lazy
 from .models import Post
-from django.contrib.auth.mixins import LoginRequiredMixi
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 
