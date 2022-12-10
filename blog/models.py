@@ -4,7 +4,7 @@ from django.urls import reverse
 # Create your models here.
 
 class Post(models.Model):
-    title = models.CharField(max_length=200
+    title = models.CharField(max_length=200)
     author = models.ForeignKey('auth.user', on_delete=models.CASCADE,)
     body = models.TextField()
 
