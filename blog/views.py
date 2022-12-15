@@ -29,7 +29,7 @@ class BlogUpdateView(LoginRequiredMixin, UpdateView):
     template_name = 'post_edit.html'
     fields=['title', 'body']
 
-class BlogDeleteView(LoginRequiredMixin, DeleteView)
+class BlogDeleteView(LoginRequiredMixin, DeleteView):
     login_url = reverse_lazy('login')
     model = Post
     template_name= 'post_delete.html'
