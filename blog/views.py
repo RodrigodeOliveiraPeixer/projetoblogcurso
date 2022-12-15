@@ -17,7 +17,7 @@ class BlogDetailView(DetailView):
     template_name= 'post_detail.html'
     
 
-class BlogCreateView(LoginRequiredMixin, CreateView
+class BlogCreateView(LoginRequiredMixin, CreateView)
     login_url = reverse_lazy('login')
     model = Post
     template_name = 'post_new.html'
