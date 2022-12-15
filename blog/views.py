@@ -23,7 +23,7 @@ class BlogCreateView(LoginRequiredMixin, CreateView):
     template_name = 'post_new.html'
     fields= "__all__"
 
-class BlogUpdateView(LoginRequiredMixin, UpdateView
+class BlogUpdateView(LoginRequiredMixin, UpdateView)
     login_url = reverse_lazy('login')
     model = Post
     template_name = 'post_edit.html'
