@@ -6,7 +6,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 
-class BlogListView(ListView)
+class BlogListView(ListView):
     model = Post
     template_name = 'home.html'
     
